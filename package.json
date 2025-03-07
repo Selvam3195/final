@@ -22,10 +22,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    export start=--openssl-legacy-provider
-    export build=--openssl-legacy-provider
-    export test=--openssl-legacy-provider
-    export eject=--openssl-legacy-provider
+    export NODE_OPTIONS=--openssl-legacy-provider
+    export NODE_OPTIONS=--openssl-legacy-provider
+    export NODE_OPTIONS=--openssl-legacy-provider
+    export NODE_OPTIONS=--openssl-legacy-provider
   },
   "eslintConfig": {
     "extends": [
